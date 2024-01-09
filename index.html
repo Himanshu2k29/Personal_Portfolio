@@ -20,188 +20,240 @@
             font-family: 'Poppins', sans-serif;
         }
 
-        nav{
+        nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height: 70px;
+            height: 125px;
             background-color: rgb(18, 18, 62);
         }
-        nav ul{
+
+        nav ul {
             display: flex;
             justify-content: center;
+            font-size: 35px;
         }
-        nav ul li{
+
+        nav ul li {
             list-style: none;
-            margin: 0 23px;
+            margin: 0 40px;
         }
-        nav ul li a{
+
+        nav ul li a {
             text-decoration: none;
             color: white;
         }
-        nav ul li a:hover{
+
+        nav ul li a:hover {
             color: rgb(153, 153, 226);
-            font-size: 1.02rem;
+            font-size: 2.19rem;
         }
-        main hr{
+
+        main hr {
             border: 0;
             background: #9c97f1;
             height: 1.2px;
             margin: 56px 84px;
         }
-        .left{
-            font-size: 1.5rem;
+
+        .left {
+            font-size: 3rem;
         }
-        .firstSection{
+
+        .firstSection {
             display: flex;
             justify-content: space-around;
             align-items: center;
             margin: 110px 0;
         }
-        .firstSection > div{
+
+        .firstSection>div {
             width: 30%;
         }
-        .leftSection{
-            font-size: 2.4rem;
+
+        .leftSection {
+            font-size: 4.4rem;
         }
-        .leftSection .button{
+
+        .leftSection .button {
             padding: 50px 0;
         }
-        .leftSection .btn{
+
+        .leftSection .btn {
             padding: 8px;
             color: white;
             background: rgba(107, 182, 228, 0.31);
             border: 2px solid white;
             border-radius: 6px;
-            font-size: 20px;
+            font-size: 45px;
             cursor: pointer;
             margin: 0 20px 0 0;
             transition: all 0.7s ease-out;
         }
-        .leftSection .btn:hover{
+
+        .leftSection .btn:hover {
             box-shadow: inset 0px 1px 20px 18px #1e2167;
             background: #efeff6;
             border-radius: 8px;
             text-shadow: 3px 2px 5px black;
         }
-        .rightSection img{
+
+        .rightSection img {
             width: 80%;
         }
-        .purple{
-            color: rgb(170,107,228);
+
+        .purple {
+            color: rgb(170, 107, 228);
         }
-        .text-gray{
+
+        .text-gray {
+            font-size: 1.5rem;
             color: gray;
         }
-        #element{
+
+        #element {
             color: rgba(107, 182, 228, 0.31);
         }
-        .secondSection{
+
+        .secondSection {
             max-width: 80vw;
             margin: auto;
             height: 80vh;
         }
-        .secondSection h1{
-            font-size: 1.9rem;
+
+        .secondSection h1 {
+            font-size: 3rem;
         }
-        .secondSection .box{
+
+        .secondSection .box {
             background: white;
             width: 58vw;
             height: 2px;
             margin: 56px 0;
             display: flex;
         }
-        .secondSection .vertical{
+
+        .secondSection .vertical {
             width: 1px;
             height: 93px;
             background: white;
             margin: 0 6vw;
         }
-        .image-top{
+
+        .image-top {
             width: 30px;
             position: relative;
             top: -32px;
             left: -8px;
         }
-        .vertical-title{
+
+        .vertical-title {
             position: relative;
             top: 75px;
             width: 150px;
         }
-        .vertical-desc{
+
+        .vertical-desc {
             position: relative;
             top: 86px;
             color: gray;
             width: 150px;
             font-size: 11px;
         }
-        footer{
+
+        footer {
             background-color: #0e0e1a;
         }
-        .footer{
+
+        .footer {
             display: flex;
             padding: 23px 130px;
             justify-content: space-evenly;
         }
-        .footer ul{
+
+        .footer ul {
             list-style: none;
         }
-        .footer> div{
+
+        .footer>div {
             width: 223px;
         }
-        footer .footer-rights{
+
+        footer .footer-rights {
             text-align: center;
             color: gray;
             padding: 12px 0;
         }
+
         @media screen and (max-width: 1400px) {
-          .firstSection{
-            flex-direction: column-reverse;
-          }
-          .leftSection{
-            width: 100% !important;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          }
-          .rightSection{
-            width: 721px !important;
-            display: flex;
-            justify-content: center;
-          }
-          .rightSection img{
-            width: 400px;
-            margin-bottom: 73px;
-          }
-          .box{
-            flex-direction: column;
-          }
-          .secondSection{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 140vh;
-          }
-          .secondSection .vertical{
-            height: unset;
-          }
-          .vertical-title,.vertical-desc{
-            left: 45px;
-          }
-          .secondSection .box{
-            width: 50vw;
-          }
-          .image-top{
-            left: auto;
-            top: 106px;
-          }
-          nav{
-            flex-direction: column;
-          }
-          body{
-            min-width: fit-content;
-          }
+            .firstSection {
+                flex-direction: column-reverse;
+            }
+
+            .leftSection {
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .rightSection {
+                width: 721px !important;
+                display: flex;
+                justify-content: center;
+            }
+
+            .rightSection img {
+                width: 760px;
+                margin-bottom: 73px;
+            }
+
+            .box {
+                flex-direction: column;
+            }
+
+            .secondSection {
+                margin-left: 27%;
+                max-width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                height: 195vh;
+            }
+
+            .secondSection .vertical {
+                height: unset;
+            }
+            .vertical-title{
+                font-size: 2rem;
+                width: 80vw;
+            }
+            .vertical-desc{
+                width: 80vw;
+                font-size: 16px;
+            }
+            .vertical-title,
+            .vertical-desc {
+                left: 45px;
+            }
+
+            .secondSection .box {
+                width: 125vw;
+            }
+
+            .image-top {
+                left: auto;
+                top: 117px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            body {
+                min-width: fit-content;
+            }
         }
     </style>
 </head>
@@ -224,16 +276,16 @@
     <main>
         <section class="firstSection">
             <div class="leftSection">
-                <div>Hi, My name  is <span class="purple">Himanshu</span></div>
+                <div>Hi, My name is <span class="purple">Himanshu</span></div>
                 <div>
-                    And I am an aspiring 
+                    And I am an aspiring
                 </div>
                 <span id="element"></span>
                 <div class="button">
                     <button class="btn">Download Resume</button>
                     <button class="btn">Visit Github</button>
                 </div>
-                </div>
+            </div>
             </div>
             <div class="rightSection">
                 <img src="bg2.png" alt="">
@@ -247,22 +299,25 @@
                 <div class="vertical">
                     <img class="image-top" src="html.png" alt="">
                     <div class="vertical-title">HTML Developer (since 2023)</div>
-                    <div class="vertical-desc">Learned about how to provide basic structure to a website by making projects.</div>
+                    <div class="vertical-desc">Learned about how to provide basic structure to a website by making
+                        projects.</div>
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="CSS.png" alt="">
                     <div class="vertical-title">CSS Developer (since 2023)</div>
-                    <div class="vertical-desc">Learned to give styling to the website by making front-end static websites projects.</div>
+                    <div class="vertical-desc">Learned to give styling to the website by making front-end static
+                        websites projects.</div>
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="Js.png" alt="">
                     <div class="vertical-title">Js Developer (since 2023)</div>
-                    <div class="vertical-desc">Learned how to provide some functionality to the website by making a game and  Portfolio site.</div>
+                    <div class="vertical-desc">Learned how to provide some functionality to the website by making a game
+                        and Portfolio site.</div>
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="C++.png" alt="">
                     <div class="vertical-title">Basics of C++ (since 2023)</div>
-                    <div class="vertical-desc">Knowledge of basic  syntax and concepts of C++</div>
+                    <div class="vertical-desc">Knowledge of basic syntax and concepts of C++</div>
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="mysql.png" alt="">
@@ -303,13 +358,13 @@
         <div class="footer-rights">Copyright &#169; www.himanshuportfolio.com | All rights reserved</div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-      <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Software Engineer', 'Web Designer','Android Developer','Full Stack Developer','Mern Stack Developer','Web Developer'],
-      typeSpeed: 50,
-    });
-  </script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer', 'Web Designer', 'Android Developer', 'Full Stack Developer', 'Mern Stack Developer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>

@@ -24,19 +24,18 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height: 125px;
+            height: 70px;
             background-color: rgb(18, 18, 62);
         }
 
         nav ul {
             display: flex;
             justify-content: center;
-            font-size: 35px;
         }
 
         nav ul li {
             list-style: none;
-            margin: 0 40px;
+            margin: 0 23px;
         }
 
         nav ul li a {
@@ -46,7 +45,7 @@
 
         nav ul li a:hover {
             color: rgb(153, 153, 226);
-            font-size: 2.19rem;
+            font-size: 1.02rem;
         }
 
         main hr {
@@ -57,7 +56,7 @@
         }
 
         .left {
-            font-size: 3rem;
+            font-size: 1.5rem;
         }
 
         .firstSection {
@@ -72,7 +71,7 @@
         }
 
         .leftSection {
-            font-size: 4.4rem;
+            font-size: 2.4rem;
         }
 
         .leftSection .button {
@@ -85,7 +84,7 @@
             background: rgba(107, 182, 228, 0.31);
             border: 2px solid white;
             border-radius: 6px;
-            font-size: 45px;
+            font-size: 20px;
             cursor: pointer;
             margin: 0 20px 0 0;
             transition: all 0.7s ease-out;
@@ -107,7 +106,6 @@
         }
 
         .text-gray {
-            font-size: 1.5rem;
             color: gray;
         }
 
@@ -122,6 +120,7 @@
         }
 
         .secondSection h1 {
+            font-size: 1.9rem;
             font-size: 3rem;
         }
 
@@ -186,18 +185,35 @@
         }
 
         @media screen and (max-width: 1400px) {
+            nav {
+            height: 125px;
+            }
+            nav ul {
+            font-size: 35px;
+            }
+            nav ul li {
+            margin: 0 40px;
+            }
+            nav ul li a:hover {
+            font-size: 2.19rem;
+            }
             .firstSection {
                 flex-direction: column-reverse;
             }
-
+            .left {
+            font-size: 3rem;
+            }
             .leftSection {
+                font-size: 4.4rem;
                 width: 100% !important;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
             }
-
+            .leftSection .btn{
+                font-size: 45px;
+            }
             .rightSection {
                 width: 721px !important;
                 display: flex;
@@ -212,7 +228,9 @@
             .box {
                 flex-direction: column;
             }
-
+            .text-gray {
+            font-size: 1.5rem;
+            }
             .secondSection {
                 margin-left: 27%;
                 max-width: 50%;
@@ -221,7 +239,9 @@
                 align-items: baseline;
                 height: 195vh;
             }
-
+            .secondSection h1 {
+            font-size: 3rem;
+            }
             .secondSection .vertical {
                 height: unset;
             }
